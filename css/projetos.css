@@ -1,0 +1,156 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header ul{
+
+    list-style: none;
+    display: flex;
+}
+
+header ul li + li{
+    margin-left: 30px;
+}
+h2{
+    color: rgb(255, 253, 253);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(16, 16, 141);
+    width: 100%;
+    padding: 10px;}
+    .history {
+        margin: 64px 0 400px;
+        padding: 92px 24px;
+    
+        background-color: #111111;
+        color:#ebebeb;
+    
+        border-top: 4px solid red;
+    }
+    
+    .history .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 24px;
+    
+        border-bottom: 2px solid red;
+    }
+    
+    .history .container .col {
+        flex: 1 1 350px;
+    }
+    
+    .history img {
+        width: 100%;
+        display: block;
+    }
+    
+    .history h2 {
+        margin-bottom: 32px;
+        padding-left: 8px;
+        border-left: 4px solid red;
+    }
+    
+    .history p {
+        line-height: 1.5;
+    }
+    
+    .history p + p {
+        margin-top: 24px;
+    }
+    
+    .history a {
+        color: red;
+        transition: color 0.3s;
+    }
+    
+    .history a:hover {
+        color: #ebebeb;
+    }.history {
+        margin: 64px 0 400px;
+        padding: 92px 24px;
+    
+        background-color: #111111;
+        color:#ebebeb;
+    
+        border-top: 4px solid red;
+    }
+    
+    .historia .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 24px;
+    
+        border-bottom: 2px solid red;
+    }
+    
+    .historia .container .col {
+        flex: 1 1 350px;
+    }
+    
+    .historia img {
+        width: 100%;
+        display: block;
+    }
+    
+    .historia h2 {
+        margin-bottom: 32px;
+        padding-left: 8px;
+        border-left: 4px solid red;
+    }
+    
+    .historia p {
+        line-height: 1.5;
+    }
+    
+    .historia p + p {
+        margin-top: 24px;
+    }
+    
+    .historia a {
+        color: red;
+        transition: color 0.3s;
+    }
+    
+    .historia a:hover {
+        color: #ebebeb;
+    }
+
+    footer {
+        padding: 64px 24px;
+        background-color: #111111;
+        color: #ebebeb;
+        text-align: center;
+    }
+    
+    
+    footer a {
+        color: red;
+        transition: 0.2s;
+    }
+    
+    footer a:hover {
+        color: #ebebeb;
+    }
