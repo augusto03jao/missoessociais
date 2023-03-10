@@ -7,9 +7,11 @@ body{
     font-family: sans-serif;
     margin: 0%;
     padding: 0%;
-    background-color: rgb(230, 230, 230);
-}
 
+}
+main{
+    width: 100%;
+}
 header{
     width: 100%;
     padding: 10px;
@@ -36,6 +38,19 @@ h1{
     font-family: sans-serif;
     background-color: rgb(0, 0, 0);
 }
+.container{
+    width: 100%;
+    background-color: blueviolet;
+   
+}
+
+article{
+    background-color: blueviolet;
+    border-top: solid 3px black;
+}
+   
+   
+
 
 .container ul{
 
@@ -61,13 +76,26 @@ h1{
     color: rgb(0, 0, 0);
     font-family: sans-serif;  
     padding: 0 50px; 
+    text-align: center;
+}
+.banner p{
+    width: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+     text-align: center;
+     margin: 10px auto;
+     color: aliceblue;
 }
 p{
     width: 80%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
-    align-items: center;
+     text-align: center;
+     margin: 10px auto;
+     padding: 20px;
+
 }
+
 .artigo1{
     background-color: rgb(36, 171, 180);
     padding: 20px 50px;
@@ -76,33 +104,36 @@ p{
     font-size: 22px;
 }
 
-.areasdegrpos{
-    width: 100%;
-    display: flex;
 
-     }
-
-     .post-01{
+.post-01{
         width: 500px;
         height: 300px;
         padding-right : 140px;
     
     }
+  
+        
 
-    footer {
+footer {
+        width: 100%;
         padding: 64px 24px;
         background-color: #111111;
         color: #ebebeb;
         text-align: center;
+        display: flex;
+        clear: both;
     }
     
     
-    footer a {
+footer a {
         color: red;
         transition: 0.2s;
     }
     
-    footer a:hover {
+footer a:hover {
         color: #ebebeb;
     }
+    
+
+
     
